@@ -1,0 +1,1022 @@
+{
+ "cases": [
+  {
+   "fn": "courses",
+   "args": [
+    "30",
+    "3",
+    "8",
+    "16"
+   ],
+   "expect": "The wall of 30 ft at 3 ft tall takes 5 courses of 23 blocks each, 115 blocks in all."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "30",
+    "16"
+   ],
+   "expect": "The run of 30 ft takes 23 cap units at 16 inches each, leaving 8 inches of the last one."
+  },
+  {
+   "fn": "gravel",
+   "args": [
+    "30",
+    "24",
+    "6"
+   ],
+   "expect": "The base trench of 30 ft by 24 inches wide by 6 inches deep takes 30 cu ft of gravel, or 1.11 cu yd."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "115",
+    "4.50",
+    "23",
+    "6",
+    "30",
+    "3"
+   ],
+   "expect": "The 115 blocks at $4.5 and the 23 caps at $6 cost $655.50, or $7.28 a face square foot over the 90."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "7470",
+    "87",
+    "15",
+    "42"
+   ],
+   "expect": "The wall of 7470 ft at 87 ft tall takes 70 courses of 2135 blocks each, 149450 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "2815",
+    "56",
+    "11",
+    "44"
+   ],
+   "expect": "The wall of 2815 ft at 56 ft tall takes 62 courses of 768 blocks each, 47616 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "321",
+    "98",
+    "17",
+    "30"
+   ],
+   "expect": "The wall of 321 ft at 98 ft tall takes 70 courses of 129 blocks each, 9030 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "4273",
+    "3",
+    "20",
+    "5"
+   ],
+   "expect": "The wall of 4273 ft at 3 ft tall takes 2 courses of 10256 blocks each, 20512 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "6703",
+    "6",
+    "23",
+    "41"
+   ],
+   "expect": "The wall of 6703 ft at 6 ft tall takes 4 courses of 1962 blocks each, 7848 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "5326",
+    "66",
+    "20",
+    "44"
+   ],
+   "expect": "The wall of 5326 ft at 66 ft tall takes 40 courses of 1453 blocks each, 58120 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "7986",
+    "49",
+    "7",
+    "18"
+   ],
+   "expect": "The wall of 7986 ft at 49 ft tall takes 84 courses of 5324 blocks each, 447216 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "5662",
+    "2",
+    "22",
+    "42"
+   ],
+   "expect": "The wall of 5662 ft at 2 ft tall takes 2 courses of 1618 blocks each, 3236 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "7928",
+    "39",
+    "23",
+    "7"
+   ],
+   "expect": "The wall of 7928 ft at 39 ft tall takes 21 courses of 13591 blocks each, 285411 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "875",
+    "14",
+    "18",
+    "14"
+   ],
+   "expect": "The wall of 875 ft at 14 ft tall takes 10 courses of 750 blocks each, 7500 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "2327",
+    "21",
+    "20",
+    "34"
+   ],
+   "expect": "The wall of 2327 ft at 21 ft tall takes 13 courses of 822 blocks each, 10686 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "5530",
+    "31",
+    "2",
+    "4"
+   ],
+   "expect": "The wall of 5530 ft at 31 ft tall takes 186 courses of 16590 blocks each, 3085740 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "8873",
+    "9",
+    "18",
+    "3"
+   ],
+   "expect": "The wall of 8873 ft at 9 ft tall takes 6 courses of 35492 blocks each, 212952 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "8880",
+    "46",
+    "8",
+    "23"
+   ],
+   "expect": "The wall of 8880 ft at 46 ft tall takes 69 courses of 4634 blocks each, 319746 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "1772",
+    "52",
+    "19",
+    "30"
+   ],
+   "expect": "The wall of 1772 ft at 52 ft tall takes 33 courses of 709 blocks each, 23397 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "1925",
+    "7",
+    "1",
+    "27"
+   ],
+   "expect": "The wall of 1925 ft at 7 ft tall takes 84 courses of 856 blocks each, 71904 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "5729",
+    "25",
+    "5",
+    "47"
+   ],
+   "expect": "The wall of 5729 ft at 25 ft tall takes 60 courses of 1463 blocks each, 87780 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "6146",
+    "12",
+    "22",
+    "41"
+   ],
+   "expect": "The wall of 6146 ft at 12 ft tall takes 7 courses of 1799 blocks each, 12593 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "6258",
+    "8",
+    "22",
+    "38"
+   ],
+   "expect": "The wall of 6258 ft at 8 ft tall takes 5 courses of 1977 blocks each, 9885 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "7778",
+    "4",
+    "10",
+    "41"
+   ],
+   "expect": "The wall of 7778 ft at 4 ft tall takes 5 courses of 2277 blocks each, 11385 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "7912",
+    "95",
+    "7",
+    "45"
+   ],
+   "expect": "The wall of 7912 ft at 95 ft tall takes 163 courses of 2110 blocks each, 343930 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "826",
+    "51",
+    "7",
+    "28"
+   ],
+   "expect": "The wall of 826 ft at 51 ft tall takes 88 courses of 354 blocks each, 31152 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "9853",
+    "65",
+    "3",
+    "23"
+   ],
+   "expect": "The wall of 9853 ft at 65 ft tall takes 260 courses of 5141 blocks each, 1336660 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "8335",
+    "21",
+    "8",
+    "13"
+   ],
+   "expect": "The wall of 8335 ft at 21 ft tall takes 32 courses of 7694 blocks each, 246208 blocks in all."
+  },
+  {
+   "fn": "courses",
+   "args": [
+    "4355",
+    "44",
+    "19",
+    "27"
+   ],
+   "expect": "The wall of 4355 ft at 44 ft tall takes 28 courses of 1936 blocks each, 54208 blocks in all."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "5225",
+    "41"
+   ],
+   "expect": "The run of 5225 ft takes 1530 cap units at 41 inches each, leaving 30 inches of the last one."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "6192",
+    "28"
+   ],
+   "expect": "The run of 6192 ft takes 2654 cap units at 28 inches each, leaving 8 inches of the last one."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "163",
+    "42"
+   ],
+   "expect": "The run of 163 ft takes 47 cap units at 42 inches each, leaving 18 inches of the last one."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "8151",
+    "22"
+   ],
+   "expect": "The run of 8151 ft takes 4446 cap units at 22 inches each, with nothing left over."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "3109",
+    "7"
+   ],
+   "expect": "The run of 3109 ft takes 5330 cap units at 7 inches each, leaving 2 inches of the last one."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "1581",
+    "21"
+   ],
+   "expect": "The run of 1581 ft takes 904 cap units at 21 inches each, leaving 12 inches of the last one."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "5176",
+    "21"
+   ],
+   "expect": "The run of 5176 ft takes 2958 cap units at 21 inches each, leaving 6 inches of the last one."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "9906",
+    "38"
+   ],
+   "expect": "The run of 9906 ft takes 3129 cap units at 38 inches each, leaving 30 inches of the last one."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "9079",
+    "16"
+   ],
+   "expect": "The run of 9079 ft takes 6810 cap units at 16 inches each, leaving 12 inches of the last one."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "4302",
+    "18"
+   ],
+   "expect": "The run of 4302 ft takes 2868 cap units at 18 inches each, with nothing left over."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "1373",
+    "33"
+   ],
+   "expect": "The run of 1373 ft takes 500 cap units at 33 inches each, leaving 24 inches of the last one."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "4062",
+    "29"
+   ],
+   "expect": "The run of 4062 ft takes 1681 cap units at 29 inches each, leaving 5 inches of the last one."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "2364",
+    "46"
+   ],
+   "expect": "The run of 2364 ft takes 617 cap units at 46 inches each, leaving 14 inches of the last one."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "6665",
+    "8"
+   ],
+   "expect": "The run of 6665 ft takes 9998 cap units at 8 inches each, leaving 4 inches of the last one."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "7511",
+    "13"
+   ],
+   "expect": "The run of 7511 ft takes 6934 cap units at 13 inches each, leaving 10 inches of the last one."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "1775",
+    "6"
+   ],
+   "expect": "The run of 1775 ft takes 3550 cap units at 6 inches each, with nothing left over."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "459",
+    "17"
+   ],
+   "expect": "The run of 459 ft takes 324 cap units at 17 inches each, with nothing left over."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "5632",
+    "25"
+   ],
+   "expect": "The run of 5632 ft takes 2704 cap units at 25 inches each, leaving 16 inches of the last one."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "6139",
+    "33"
+   ],
+   "expect": "The run of 6139 ft takes 2233 cap units at 33 inches each, leaving 21 inches of the last one."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "8509",
+    "48"
+   ],
+   "expect": "The run of 8509 ft takes 2128 cap units at 48 inches each, leaving 36 inches of the last one."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "8852",
+    "26"
+   ],
+   "expect": "The run of 8852 ft takes 4086 cap units at 26 inches each, leaving 12 inches of the last one."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "2057",
+    "45"
+   ],
+   "expect": "The run of 2057 ft takes 549 cap units at 45 inches each, leaving 21 inches of the last one."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "8675",
+    "2"
+   ],
+   "expect": "The run of 8675 ft takes 52050 cap units at 2 inches each, with nothing left over."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "3602",
+    "42"
+   ],
+   "expect": "The run of 3602 ft takes 1030 cap units at 42 inches each, leaving 36 inches of the last one."
+  },
+  {
+   "fn": "caps",
+   "args": [
+    "9921",
+    "13"
+   ],
+   "expect": "The run of 9921 ft takes 9158 cap units at 13 inches each, leaving 2 inches of the last one."
+  },
+  {
+   "fn": "gravel",
+   "args": [
+    "573",
+    "75",
+    "19"
+   ],
+   "expect": "The base trench of 573 ft by 75 inches wide by 19 inches deep takes 5670.31 cu ft of gravel, or 210.01 cu yd."
+  },
+  {
+   "fn": "gravel",
+   "args": [
+    "4038",
+    "1",
+    "8"
+   ],
+   "expect": "The base trench of 4038 ft by 1 inches wide by 8 inches deep takes 224.33 cu ft of gravel, or 8.31 cu yd."
+  },
+  {
+   "fn": "gravel",
+   "args": [
+    "8231",
+    "75",
+    "35"
+   ],
+   "expect": "The base trench of 8231 ft by 75 inches wide by 35 inches deep takes 150044.27 cu ft of gravel, or 5557.2 cu yd."
+  },
+  {
+   "fn": "gravel",
+   "args": [
+    "6389",
+    "21",
+    "12"
+   ],
+   "expect": "The base trench of 6389 ft by 21 inches wide by 12 inches deep takes 11180.75 cu ft of gravel, or 414.1 cu yd."
+  },
+  {
+   "fn": "gravel",
+   "args": [
+    "7292",
+    "5",
+    "11"
+   ],
+   "expect": "The base trench of 7292 ft by 5 inches wide by 11 inches deep takes 2785.14 cu ft of gravel, or 103.15 cu yd."
+  },
+  {
+   "fn": "gravel",
+   "args": [
+    "2021",
+    "81",
+    "23"
+   ],
+   "expect": "The base trench of 2021 ft by 81 inches wide by 23 inches deep takes 26146.69 cu ft of gravel, or 968.4 cu yd."
+  },
+  {
+   "fn": "gravel",
+   "args": [
+    "3705",
+    "28",
+    "14"
+   ],
+   "expect": "The base trench of 3705 ft by 28 inches wide by 14 inches deep takes 10085.83 cu ft of gravel, or 373.55 cu yd."
+  },
+  {
+   "fn": "gravel",
+   "args": [
+    "5108",
+    "6",
+    "17"
+   ],
+   "expect": "The base trench of 5108 ft by 6 inches wide by 17 inches deep takes 3618.17 cu ft of gravel, or 134.01 cu yd."
+  },
+  {
+   "fn": "gravel",
+   "args": [
+    "983",
+    "66",
+    "14"
+   ],
+   "expect": "The base trench of 983 ft by 66 inches wide by 14 inches deep takes 6307.58 cu ft of gravel, or 233.61 cu yd."
+  },
+  {
+   "fn": "gravel",
+   "args": [
+    "7597",
+    "29",
+    "15"
+   ],
+   "expect": "The base trench of 7597 ft by 29 inches wide by 15 inches deep takes 22949.27 cu ft of gravel, or 849.97 cu yd."
+  },
+  {
+   "fn": "gravel",
+   "args": [
+    "1441",
+    "74",
+    "15"
+   ],
+   "expect": "The base trench of 1441 ft by 74 inches wide by 15 inches deep takes 11107.71 cu ft of gravel, or 411.4 cu yd."
+  },
+  {
+   "fn": "gravel",
+   "args": [
+    "4948",
+    "75",
+    "22"
+   ],
+   "expect": "The base trench of 4948 ft by 75 inches wide by 22 inches deep takes 56695.83 cu ft of gravel, or 2099.85 cu yd."
+  },
+  {
+   "fn": "gravel",
+   "args": [
+    "4829",
+    "82",
+    "33"
+   ],
+   "expect": "The base trench of 4829 ft by 82 inches wide by 33 inches deep takes 90744.96 cu ft of gravel, or 3360.92 cu yd."
+  },
+  {
+   "fn": "gravel",
+   "args": [
+    "4818",
+    "88",
+    "32"
+   ],
+   "expect": "The base trench of 4818 ft by 88 inches wide by 32 inches deep takes 94218.67 cu ft of gravel, or 3489.58 cu yd."
+  },
+  {
+   "fn": "gravel",
+   "args": [
+    "5972",
+    "11",
+    "3"
+   ],
+   "expect": "The base trench of 5972 ft by 11 inches wide by 3 inches deep takes 1368.58 cu ft of gravel, or 50.69 cu yd."
+  },
+  {
+   "fn": "gravel",
+   "args": [
+    "1655",
+    "44",
+    "6"
+   ],
+   "expect": "The base trench of 1655 ft by 44 inches wide by 6 inches deep takes 3034.17 cu ft of gravel, or 112.38 cu yd."
+  },
+  {
+   "fn": "gravel",
+   "args": [
+    "4959",
+    "76",
+    "4"
+   ],
+   "expect": "The base trench of 4959 ft by 76 inches wide by 4 inches deep takes 10469 cu ft of gravel, or 387.74 cu yd."
+  },
+  {
+   "fn": "gravel",
+   "args": [
+    "203",
+    "73",
+    "13"
+   ],
+   "expect": "The base trench of 203 ft by 73 inches wide by 13 inches deep takes 1337.83 cu ft of gravel, or 49.55 cu yd."
+  },
+  {
+   "fn": "gravel",
+   "args": [
+    "6973",
+    "48",
+    "21"
+   ],
+   "expect": "The base trench of 6973 ft by 48 inches wide by 21 inches deep takes 48811 cu ft of gravel, or 1807.81 cu yd."
+  },
+  {
+   "fn": "gravel",
+   "args": [
+    "9043",
+    "56",
+    "29"
+   ],
+   "expect": "The base trench of 9043 ft by 56 inches wide by 29 inches deep takes 101984.94 cu ft of gravel, or 3777.22 cu yd."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "386189",
+    "4355.71",
+    "56431",
+    "7962.33",
+    "5389",
+    "7"
+   ],
+   "expect": "The 386189 blocks at $4355.71 and the 56431 caps at $7962.33 cost $2131449533.42, or $56502.65 a face square foot over the 37723."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "821511",
+    "5688.94",
+    "14803",
+    "5425.61",
+    "4371",
+    "75"
+   ],
+   "expect": "The 821511 blocks at $5688.94 and the 14803 caps at $5425.61 cost $4753842093.17, or $14501.16 a face square foot over the 327825."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "870668",
+    "336.82",
+    "2895",
+    "1232.45",
+    "8492",
+    "47"
+   ],
+   "expect": "The 870668 blocks at $336.82 and the 2895 caps at $1232.45 cost $296826338.51, or $743.69 a face square foot over the 399124."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "670225",
+    "1539.21",
+    "73250",
+    "6311.52",
+    "4402",
+    "53"
+   ],
+   "expect": "The 670225 blocks at $1539.21 and the 73250 caps at $6311.52 cost $1493935862.25, or $6403.33 a face square foot over the 233306."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "378580",
+    "1701.59",
+    "3965",
+    "5377.05",
+    "4972",
+    "36"
+   ],
+   "expect": "The 378580 blocks at $1701.59 and the 3965 caps at $5377.05 cost $665507945.45, or $3718.09 a face square foot over the 178992."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "102764",
+    "7359.49",
+    "38851",
+    "4049.45",
+    "1034",
+    "64"
+   ],
+   "expect": "The 102764 blocks at $7359.49 and the 38851 caps at $4049.45 cost $913615812.31, or $13805.85 a face square foot over the 66176."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "105781",
+    "2075.3",
+    "21636",
+    "1108.69",
+    "1516",
+    "51"
+   ],
+   "expect": "The 105781 blocks at $2075.3 and the 21636 caps at $1108.69 cost $243514926.14, or $3149.61 a face square foot over the 77316."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "945566",
+    "5685.36",
+    "96907",
+    "2429.54",
+    "5861",
+    "36"
+   ],
+   "expect": "The 945566 blocks at $5685.36 and the 96907 caps at $2429.54 cost $5611322546.54, or $26594.45 a face square foot over the 210996."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "415057",
+    "3147.34",
+    "46772",
+    "7036.69",
+    "9703",
+    "62"
+   ],
+   "expect": "The 415057 blocks at $3147.34 and the 46772 caps at $7036.69 cost $1635445563.06, or $2718.56 a face square foot over the 601586."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "358662",
+    "1122.88",
+    "68033",
+    "2215.97",
+    "6534",
+    "68"
+   ],
+   "expect": "The 358662 blocks at $1122.88 and the 68033 caps at $2215.97 cost $553493473.57, or $1245.73 a face square foot over the 444312."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "780779",
+    "6020.71",
+    "98736",
+    "2568.11",
+    "696",
+    "38"
+   ],
+   "expect": "The 780779 blocks at $6020.71 and the 98736 caps at $2568.11 cost $4954408842.05, or $187326.41 a face square foot over the 26448."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "533280",
+    "662.85",
+    "64941",
+    "1388.29",
+    "404",
+    "87"
+   ],
+   "expect": "The 533280 blocks at $662.85 and the 64941 caps at $1388.29 cost $443641588.89, or $12622.10 a face square foot over the 35148."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "374484",
+    "282.59",
+    "28946",
+    "218.72",
+    "2367",
+    "86"
+   ],
+   "expect": "The 374484 blocks at $282.59 and the 28946 caps at $218.72 cost $112156502.68, or $550.97 a face square foot over the 203562."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "229069",
+    "1458.59",
+    "66641",
+    "6699.49",
+    "6283",
+    "18"
+   ],
+   "expect": "The 229069 blocks at $1458.59 and the 66641 caps at $6699.49 cost $780578465.80, or $6902.03 a face square foot over the 113094."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "946285",
+    "4756.92",
+    "55950",
+    "2488.24",
+    "6877",
+    "77"
+   ],
+   "expect": "The 946285 blocks at $4756.92 and the 55950 caps at $2488.24 cost $4640619070.20, or $8763.67 a face square foot over the 529529."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "166870",
+    "7780.19",
+    "96135",
+    "4855.86",
+    "1413",
+    "19"
+   ],
+   "expect": "The 166870 blocks at $7780.19 and the 96135 caps at $4855.86 cost $1765098406.40, or $65746.58 a face square foot over the 26847."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "535485",
+    "6249.31",
+    "10981",
+    "5834.79",
+    "8654",
+    "28"
+   ],
+   "expect": "The 535485 blocks at $6249.31 and the 10981 caps at $5834.79 cost $3410483594.34, or $14074.76 a face square foot over the 242312."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "334383",
+    "1432.02",
+    "69357",
+    "7821.88",
+    "5748",
+    "40"
+   ],
+   "expect": "The 334383 blocks at $1432.02 and the 69357 caps at $7821.88 cost $1021345274.82, or $4442.18 a face square foot over the 229920."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "553456",
+    "7342.15",
+    "42494",
+    "4529.71",
+    "2095",
+    "26"
+   ],
+   "expect": "The 553456 blocks at $7342.15 and the 42494 caps at $4529.71 cost $4256042467.14, or $78135.53 a face square foot over the 54470."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "789696",
+    "9999.08",
+    "11661",
+    "2872.93",
+    "426",
+    "96"
+   ],
+   "expect": "The 789696 blocks at $9999.08 and the 11661 caps at $2872.93 cost $7929734716.41, or $193900.01 a face square foot over the 40896."
+  }
+ ],
+ "errors": [
+  [
+   "courses",
+   [
+    "0",
+    "3",
+    "8",
+    "16"
+   ]
+  ],
+  [
+   "courses",
+   [
+    "30",
+    "0",
+    "8",
+    "16"
+   ]
+  ],
+  [
+   "courses",
+   [
+    "30",
+    "3",
+    "0",
+    "16"
+   ]
+  ],
+  [
+   "courses",
+   [
+    "30",
+    "3",
+    "8",
+    "0"
+   ]
+  ],
+  [
+   "caps",
+   [
+    "0",
+    "16"
+   ]
+  ],
+  [
+   "caps",
+   [
+    "30",
+    "0"
+   ]
+  ],
+  [
+   "gravel",
+   [
+    "0",
+    "24",
+    "6"
+   ]
+  ],
+  [
+   "gravel",
+   [
+    "30",
+    "0",
+    "6"
+   ]
+  ],
+  [
+   "gravel",
+   [
+    "30",
+    "24",
+    "0"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "4.50",
+    "23",
+    "6",
+    "30",
+    "3"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "115",
+    "4.50",
+    "0",
+    "6",
+    "30",
+    "3"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "115",
+    "4.50",
+    "23",
+    "6",
+    "30",
+    "0"
+   ]
+  ]
+ ]
+}
