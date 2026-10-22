@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Retaining Math - app</title>
+<style>
+  :root { --accent:#24503d; --ink:#18211c; --paper:#f4f6f4; --soft:#e2e9e3; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2rem 1.2rem; }
+  h1 { font-size:1.8rem; color:var(--accent); }
+  .boundary { margin:1rem 0 1.4rem; }
+  .panel { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1rem 1.1rem; margin-bottom:1.1rem; }
+  h2 { font-size:1.1rem; margin-bottom:.6rem; }
+  p.note { font-size:.9rem; margin-bottom:.4rem; }
+  label { display:block; font-size:.9rem; margin:.45rem 0 .1rem; }
+  input { width:100%; padding:.45rem .55rem; font-size:1rem; border:1px solid #9cb3a4; border-radius:6px; background:#fff; color:var(--ink); }
+  .row2 { display:grid; grid-template-columns:1fr 1fr; gap:.6rem; }
+  .out { margin-top:.7rem; font-size:.98rem; background:#fff; border:1px dashed #9cb3a4; border-radius:6px; padding:.6rem .7rem; min-height:2.4rem; overflow-wrap:anywhere; }
+  .out.err { border-color:#b03030; color:#8a1f1f; }
+  footer { margin-top:1.8rem; font-size:.85rem; color:#607065; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Retaining Math</h1>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    This page counts blocks with multiplication and rounding-up: the courses and blocks a wall face takes, the cap units for the run, the gravel a base trench holds, and the block-plus-cap cost per face square foot. The lengths, the block size, the trench and the prices are yours to measure or read off your own pallet tags. It applies the counting as written, so it has not seen your slope and does not know your soil, your surcharge, your drainage, your geogrid needs or your local wall-height rules, and it gives no verdict that a wall stands. Every number here is your own entry.
+  </div>
+
+  <div class="panel">
+    <h2>The courses truth</h2>
+    <p class="note">Courses and blocks: the wall face divided by the block size, each rounded up.</p>
+    <div class="row2">
+      <div><label for="w-l">Wall length (ft)</label><input id="w-l" type="text" value="30"></div>
+      <div><label for="w-h">Wall height (ft)</label><input id="w-h" type="text" value="3"></div>
+    </div>
+    <div class="row2">
+      <div><label for="w-bh">Block height (inches)</label><input id="w-bh" type="text" value="8"></div>
+      <div><label for="w-bw">Block width (inches)</label><input id="w-bw" type="text" value="16"></div>
+    </div>
+    <div class="out" id="w-out"></div>
+  </div>
+
+  <div class="panel">
+    <h2>The caps truth</h2>
+    <p class="note">Cap units: the run divided by the cap length, rounded up, and what is left of the last one.</p>
+    <div class="row2">
+      <div><label for="p-l">Wall length (ft)</label><input id="p-l" type="text" value="30"></div>
+      <div><label for="p-c">Cap length (inches)</label><input id="p-c" type="text" value="16"></div>
+    </div>
+    <div class="out" id="p-out"></div>
+  </div>
+
+  <div class="panel">
+    <h2>The gravel truth</h2>
+    <p class="note">Base gravel: the trench length times width times depth, in cubic feet and cubic yards.</p>
+    <div class="row2">
+      <div><label for="g-l">Wall length (ft)</label><input id="g-l" type="text" value="30"></div>
+      <div><label for="g-w">Trench width (inches)</label><input id="g-w" type="text" value="24"></div>
+    </div>
+    <div class="row2">
+      <div><label for="g-d">Trench depth (inches)</label><input id="g-d" type="text" value="6"></div>
+    </div>
+    <div class="out" id="g-out"></div>
+  </div>
+
+  <div class="panel">
+    <h2>The cost truth</h2>
+    <p class="note">Cost: the blocks and caps at their prices, and what that is per face square foot.</p>
+    <div class="row2">
+      <div><label for="c-b">Blocks</label><input id="c-b" type="text" value="115"></div>
+      <div><label for="c-bp">Block price (dollars)</label><input id="c-bp" type="text" value="4.50"></div>
+    </div>
+    <div class="row2">
+      <div><label for="c-c">Caps</label><input id="c-c" type="text" value="23"></div>
+      <div><label for="c-cp">Cap price (dollars)</label><input id="c-cp" type="text" value="6"></div>
+    </div>
+    <div class="row2">
+      <div><label for="c-l">Wall length (ft)</label><input id="c-l" type="text" value="30"></div>
+      <div><label for="c-h">Wall height (ft)</label><input id="c-h" type="text" value="3"></div>
+    </div>
+    <div class="out" id="c-out"></div>
+  </div>
+
+  <footer>Retaining Math is exact arithmetic over the numbers you enter. <a href="index.html">Why it exists</a>.</footer>
+</main>
+<script src="engine.js"></script>
+<script>
+  function show(id, fn) {
+    const out = document.getElementById(id);
+    try { out.textContent = fn(); out.classList.remove("err"); }
+    catch (e) { out.textContent = e.message; out.classList.add("err"); }
+  }
+  function recalc() {
+    const v = (id) => document.getElementById(id).value;
+    show("w-out", () => coursesTruth(v("w-l"), v("w-h"), v("w-bh"), v("w-bw")));
+    show("p-out", () => capsTruth(v("p-l"), v("p-c")));
+    show("g-out", () => gravelTruth(v("g-l"), v("g-w"), v("g-d")));
+    show("c-out", () => costTruth(v("c-b"), v("c-bp"), v("c-c"), v("c-cp"), v("c-l"), v("c-h")));
+  }
+  document.querySelectorAll("input").forEach((el) => {
+    el.addEventListener("input", recalc);
+    el.addEventListener("change", recalc);
+  });
+  recalc();
+</script>
+</body>
+</html>
