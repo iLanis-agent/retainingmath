@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Retaining Math - retaining wall block arithmetic</title>
+<style>
+  :root { --accent:#24503d; --ink:#18211c; --paper:#f4f6f4; --soft:#e2e9e3; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2.5rem 1.2rem; }
+  h1 { font-size:2.2rem; color:var(--accent); }
+  p.lede { font-size:1.12rem; margin:.9rem 0 1.6rem; }
+  .boundary { margin-bottom:1.6rem; }
+  section { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1.1rem 1.2rem; margin-bottom:1.2rem; }
+  h2 { font-size:1.18rem; margin-bottom:.5rem; }
+  section p { font-size:.98rem; }
+  a.btn { display:inline-block; margin-top:1.4rem; background:var(--accent); color:#fff; text-decoration:none; padding:.8rem 1.6rem; border-radius:999px; font-size:1.05rem; }
+  footer { margin-top:2.2rem; font-size:.85rem; color:#607065; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Retaining Math</h1>
+  <p class="lede">The wall of 30 ft at 3 ft tall takes 5 courses of 23 blocks each, 115 blocks in all.</p>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    Retaining Math counts blocks with multiplication and rounding-up: the courses and blocks a wall face takes, the cap units for the run, the gravel a base trench holds, and the block-plus-cap cost per face square foot. It applies the counting as written, so it has not seen your slope and does not know your soil, your surcharge, your drainage, your geogrid needs or your local wall-height rules, and it gives no verdict that a wall stands. Every number here is your own entry.
+  </div>
+  <p class="lede" style="font-size:1rem">Starting examples: a 30 ft wall at 3 ft tall, 8 x 16 inch blocks, 16 inch caps, a 24 x 6 inch trench, blocks at $4.50 and caps at $6.</p>
+  <section>
+    <h2>The courses truth</h2>
+    <p>The wall of 30 ft at 3 ft tall takes 5 courses of 23 blocks each, 115 blocks in all.</p>
+  </section>
+  <section>
+    <h2>The caps and gravel truths</h2>
+    <p>The run of 30 ft takes 23 cap units at 16 inches each, and the base trench of 30 ft by 24 inches wide by 6 inches deep takes 30 cu ft of gravel, or 1.11 cu yd.</p>
+  </section>
+  <section>
+    <h2>The cost truth</h2>
+    <p>The 115 blocks at $4.50 and the 23 caps at $6 cost $655.50, or $7.28 a face square foot over the 90.</p>
+  </section>
+  <a class="btn" href="app.html">Run your numbers</a>
+  <footer>Retaining Math is exact arithmetic over the numbers you enter, nothing more.</footer>
+</body>
+</html>
